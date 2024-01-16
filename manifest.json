@@ -1,0 +1,11 @@
+{
+    "name": "JuoksuKamu",
+    "short_name": "Juoksu",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#5f8162",
+    "background_color": "#5F6B81"
+  }
+  

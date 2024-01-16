@@ -1,0 +1,37 @@
+@import '../../assets/styles/_config.scss';
+
+.itemform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.itemform_row {
+  display: flex;
+  margin-bottom: 1rem; /* Add some space between rows */
+}
+
+.itemform_row > div {
+  flex: 1;
+  margin-right: 1rem; /* Add some space between columns */
+}
+
+.itemform input,
+.itemform select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid $color-neutral;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  margin-top: 0.2rem; /* Adjust spacing as needed */
+  outline: none;
+  box-sizing: border-box;
+}
+
+.itemform label {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  display: block; /* Ensure labels are on their own line */
+}
